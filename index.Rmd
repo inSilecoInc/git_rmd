@@ -18,8 +18,8 @@ knitr::opts_chunk$set(
 )
 
 # penguins are great but we need other birdies
-install.packages("bbsBayes")
-library(bbsBayes)
+#install.packages("bbsBayes")
+#library(bbsBayes)
 
 library(palmerpenguins)
 data(penguins)
@@ -65,13 +65,14 @@ plot(x = penguins$flipper_length_mm, y = penguins$body_mass_g, pch = 20, col = '
      xlab = 'Flipper length (mm)', ylab = 'Body mass (g)')
 ```
 
+
+```{r, child = "Jacob.Rmd"}
+```
+
 ```{r, child = "Katie.Rmd"}
 ```
 
 ```{r, child = "Ana.Rmd"}
-```
-
-```{r, child = "kevcaz.Rmd"}
 ```
 
 ```{r, child = "Sarah.Rmd"}
