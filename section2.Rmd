@@ -7,5 +7,5 @@ title: "cool"
 ---
 
 ```{R}
-cos(2)
+cos(2) + 1
 ```
