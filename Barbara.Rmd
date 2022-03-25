@@ -1,0 +1,10 @@
+# Barbara
+
+```{r birdies}
+
+PCWR.df <- bird_sample
+
+hist(PCWR.df$Count10)
+
+
+```
