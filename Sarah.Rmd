@@ -1,7 +1,7 @@
 #Sarah
 
 ##Penguin Myths
-They way penguins can't fly. That's not true.
+They say penguins can't fly. That's not true.
 
 
 **Proof that penguins can fly**
@@ -15,6 +15,6 @@ Penguins flight varies by island based on wing length. Penguins from Biscoe are 
 library(ggplot2)
 data(penguins)
 ggplot(penguins, aes(x = island, y = flipper_length_mm)) + geom_boxplot() +
-  xlab("Breeding colony") + ylab("Flipper length (mm") +
+  xlab("Breeding colony") + ylab("Flipper length (mm)") +
   ggtitle ("Variability in penguin flipper length by breeding colony")
 ```
