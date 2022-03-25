@@ -1,0 +1,9 @@
+# Noah's Section
+
+The following is a comparison between penguin bill lengths on each island
+
+```{r, echo = FALSE}
+plot(x = penguins$bill_length_mm, y = penguins$island, pch = 20, col = 'blue',
+     main = 'Penguin bill length on each island',
+     xlab = 'Bill Length (mm)', ylab = 'Island')
+```

@@ -1,0 +1,21 @@
+---
+title: "Ana"
+author: "Ana"
+date: "25/03/2022"
+output: html_document
+---
+
+
+
+In this section we can learn about bill length differences between our three different penguin species. 
+
+
+
+To start, we will first take a look at this plot showing bill length per penguin species:
+
+```{r, echo = FALSE}
+plot(penguins$species, y = penguins$bill_length_mm, pch = 20, col = '#32c4c4',
+     main = 'Bill length for each penguin species',
+     xlab = 'Penguin species', ylab = 'Bill length (mm)')
+```
+
