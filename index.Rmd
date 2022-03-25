@@ -65,3 +65,6 @@ plot(x = penguins$flipper_length_mm, y = penguins$body_mass_g, pch = 20, col = '
 
 ```{r, child = "noah.Rmd"}
 ```
+
+```{r, child = "kevcaz.Rmd"}
+```
