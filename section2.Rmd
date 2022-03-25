@@ -2,3 +2,14 @@
 
 This is the second section of the book! 
 
+```{r}
+#this is Matthew's section
+
+Lots of interesting text about many relevant topics.
+
+```
+
+
+
+```{r, child = "MatthewE.Rmd"}
+```
