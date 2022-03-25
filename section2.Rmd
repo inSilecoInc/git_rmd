@@ -2,3 +2,10 @@
 
 This is the second section of the book! 
 
+---
+title: "cool"
+---
+
+```{R}
+cos(2) + 1
+```
