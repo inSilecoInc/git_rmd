@@ -1,13 +1,13 @@
-#Sarah
+# Sarah
 
-##Penguin Myths
+## Penguin Myths
 They say penguins can't fly. That's not true.
 
 
 **Proof that penguins can fly**
 ![](penguins_fly.jpg)
 
-##Penguin flight variability by island
+## Penguin flight variability by island
 
 Penguins flight varies by island based on wing length. Penguins from Biscoe are the best at flying. Check out how long their wings are.
 
